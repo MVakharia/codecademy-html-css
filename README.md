@@ -234,126 +234,84 @@ Skeumorphic buttons
 
 ```grid-column-end```
 
-grid-area
+```grid-area```
 
+```grid-template-areas```
 
+```justify-items```
 
+```justify-content```
 
+```justify-self```
 
-grid-template-areas
+```align-items```
 
+```align-content```
 
+```align-self```
 
+```grid-auto-rows``` - The default size for rows in a grid.
 
+```grid-auto-columns``` - The default size for columns in a grid.
 
-justify-items
+```grid-auto-flow```
 
+- By default, grids are set to ```grid-auto-flow: row```, which means they're filled from left to right, THEN top to bottom.
 
+- In a grid with two rows and two columns, the grid will be filled 1, 2, new row for 3, 4 to the right, new row for 5, 6 to the right, new row for 7, 8 to the right, and so on.
 
+Changing the ```grid-auto-flow``` to ```column``` means that they're filed from top to bottom, THEN left to right.
 
+There are only 5 properties for ```grid-auto-flow```: ```row```|```column```|```dense```|```row dense```|```column dense```
 
-justify-content
+```justify-content:center``` - Aligns the item (NOT the text) horizontally (moves it along the x-axis) so that the item is halfway between the left and right.
 
+```align-items:center``` - Aligns the item (NOT the text) vertically (moves it along the y-axis) so that the item is halfway between the top and bottom.
 
+```text-align:center``` - Aligns the text (NOT the item) centrally (moves it along the text field's x-axis)
 
-
-
-justify-self
-
-
-
-
-
-align-items
-
-
-
-
-
-align-content
-
-
-
-
-
-align-self
-
-
-
-
-
-grid-auto-rows
-
-
-
-*   The default size for rows in a grid.
-
-grid-auto-columns
-
-*   The default size for columns in a grid.
-
-grid-auto-flow
-
-By default, grids are set to 'grid-auto-flow: row', which means they're filled from left to right, THEN top to bottom.
-
-In a grid with two rows and two columns, the grid will be filled 1, 2, new row for 3, 4 to the right, new row for 5, 6 to the right, new row for 7, 8 to the right, and so on.
-
-Changing the auto-flow to 'column' means that they're filed from top to bottom, THEN left to right.
-
-There are only 5 properties for grid-auto-flow: row|column|dense|row dense|column dense;
-
-justify-content:center;
-
-*   Aligns the item (NOT the text) horizontally (moves it along the x-axis) so that the item is halfway between the left and right.
-
-align-items:center;
-
-*   Aligns the item (NOT the text) vertically (moves it along the y-axis) so that the item is halfway between the top and bottom.
-
-text-align:center
-
-*   Aligns the text (NOT the item) centrally (moves it along the text field's x-axis)
-
-### ALIGN
+```align```
 
 *   column axis.
 *   y-axis.
 *   aligning top-to-bottom.
-*   'align-items: center' aligns items centrally, top to bottom.
+*   ```align-items: center``` aligns items centrally, top to bottom.
 
 ### JUSTIFY
 
 *   row axis.
 *   x-axis.
 *   aligning left-to-right.
-*   'justify-content: center' aligns items centrally, left to right.
+*   ```justify-content: center``` aligns items centrally, left to right.
 
-If you set 'grid-auto-rows' up with a single value, all rows will default to that value.
+If you set ```grid-auto-rows``` up with a single value, all rows will default to that value.
 
-If you set 'grid-auto-rows' up with two values (for example, 200px 150px, the rows will alternate between those values.
+If you set ```grid-auto-rows``` up with two values (for example ```200px 150px```, the rows will alternate between those values.
 
-The first row will be 200px, 2nd row 150px, third row 200px, fourth row 150px, and so on.
+The first row will be ```200px```, 2nd row ```150px```, third row ```200px```, fourth row ```150px```, and so on.
 
-justify-content: space-evenly puts a full space at either end: it means that every space in the row is the same,\*even\*, width. This value is space-focused, rather than item-focused, and focuses on all the space in the row, including the end space.
+```justify-content: space-evenly``` puts a full space at either end: it means that every space in the row is the same,\*even\*, width.
 
-justify-content: space-between is focused only the space between individual items, and disregards any space between an item and the end of its box.
+This value is space-focused, rather than item-focused, and focuses on all the space in the row, including the end space.
 
-justify-content: space-around puts a half-space at either end. This value is item-focused, rather than space-focused: it puts space \*around\* the items.
+```justify-content: space-between``` is focused only the space between individual items, and disregards any space between an item and the end of its box.
 
-@media only screen and (max-width: 480px)
+```justify-content: space-around``` puts a half-space at either end. This value is item-focused, rather than space-focused: it puts space \*around\* the items.
+
+```@media only screen and (max-width: 480px)```
 
 [Simulate mobile devices with device mode](https://developer.chrome.com/docs/devtools/device-mode)
 
-In a media query, the 'or' operator is the comma, and the 'and' operator is the word 'and'.
+In a media query, the 'or' operator is the comma```,``` and the 'and' operator is ```and```.
 
-CSS Tags
+CSS link styling
 
-*   'link', 'visited', 'hover' and 'active' are all valid states for tags.
+*   ```:link```, ```:visited```, ```:hover``` and ```:active``` are all valid states for links.
 
-Points (pt) and pixels (px)
+```pt``` and ```px``` values
 
-*   1pt (point) is equal to 1.33px (pixels).
+*   ```1pt```. is equal to ```1.33px```.
 
-The ':default' selector
+The ```:default``` selector
 
 *   Selects the default element from a group of associated elements.
