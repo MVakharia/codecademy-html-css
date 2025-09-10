@@ -126,110 +126,41 @@ The ```<main>``` tag
 *   Specifies the main content of the document.
 *   The content inside the ```main``` tag should be unique to the document.
 
-Title
-
-[Return to study topics page.](studytopics.html)
-
-CSS
----
+# CSS
 
 ![The CSS3 logo.](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
-@media (media query)
-
-priority: low
-
-*   N/A
+```@media``` (media query)
 
 Any element with margin: auto will be centred inside a grid container (setting 'display:grid').
 
-priority: low
+```gap```
 
-*   N/A
+```line-height```
 
-gap
+```word-spacing```
 
-priority: low
+```letter-spacing```
 
-*   N/A
-
-line-height
-
-priority: low
-
-*   N/A
-
-word-spacing
-
-priority: low
-
-*   N/A
-
-letter-spacing
-
-priority: low
-
-*   N/A
-
-@font-face (?)
-
-priority: low
-
-*   N/A
+```@font-face``` (?)
 
 Breadcrumbs
 
-priority: low
+```inline-flex```
 
-*   N/A
+```flex-grow```
 
-inline-flex
+```flex-shrink```
 
-priority: low
+```flex-basis```
 
-*   N/A
+```flex-wrap```
 
-flex-grow
+```flex-direction```
 
-priority: low
-
-*   N/A
-
-flex-shrink
-
-priority: low
-
-*   N/A
-
-flex-basis
-
-priority: low
-
-*   N/A
-
-flex-wrap
-
-priority: low
-
-*   N/A
-
-flex-direction
-
-priority: low
-
-*   N/A
-
-flex-flow
-
-priority: low
-
-*   N/A
+```flex-flow```
 
 Chaining selectors
-
-priority: low
-
-*   N/A
 
 ![Part of a cheat sheet.](https://i.ibb.co/Vp3bPXv3/chaining-selectors.png)
 
@@ -237,201 +168,123 @@ HTML attributes with multiple values
 
 ![Part of a cheat sheet.](https://i.ibb.co/KxKqHfMT/attributes-multiple-values.png)
 
-CSS !important rule
+```!important```
 
 ![Part of a cheat sheet.](https://i.ibb.co/Kz2SLLn5/css-important-rule.png)
 
-box-sizing: content-box
+```box-sizing: content-box```
 
-priority: low
+```box-sizing: border-box```
 
-*   N/A
+```overflow```
 
-box-sizing: border-box
+```min-width```
 
-priority: low
+```min-height```
 
-*   N/A
+```max-width```
 
-overflow
+```max-height```
 
-priority: low
+```visibility```
 
-*   N/A
+```z-index```
 
-min-width
+```float```
 
-priority: low
+```clear```
 
-*   N/A
+```@font-face```
 
-min-height
+```line-height```
 
-priority: low
+```:normal```
 
-*   N/A
+```:hover```
 
-max-width
+```:active```
 
-priority: low
+```:visited```
 
-*   N/A
+```cursor```
 
-max-height
-
-priority: low
-
-*   N/A
-
-visibility
-
-priority: low
-
-*   N/A
-
-z-index
-
-priority: low
-
-*   N/A
-
-float
-
-priority: low
-
-*   N/A
-
-clear
-
-priority: low
-
-*   N/A
-
-@font-face
-
-priority: low
-
-*   N/A
-
-line-height
-
-priority: low
-
-*   N/A
-
-normal, hover, active, visited
-
-priority: low
-
-*   N/A
-
-cursor
-
-priority: low
-
-*   N/A
-
-skeumorphic buttons
-
-priority: low
-
-*   N/A
+Skeumorphic buttons
 
 ### CSS grid stuff
 
-grid-template-columns
+```grid-template-columns```
 
-priority: low
+```grid-template-rows```
 
-*   N/A
+```grid-template```
 
-grid-template-rows
+```grid-template-area```
 
-priority: low
+```row-gap```
 
-*   N/A
+```column-gap```
 
-grid-template
+```gap```
 
-priority: low
+```grid-row-start```
 
-*   N/A
+```grid-row-end```
 
-grid-template-area
+```grid-column-start```
 
-priority: low
-
-*   N/A
-
-row-gap / column-gap / gap
-
-priority: low
-
-*   N/A
-
-grid-row-start / grid-row-end
-
-priority: low
-
-*   N/A
-
-grid-column-start / grid-column-end
-
-priority: low
-
-*   N/A
+```grid-column-end```
 
 grid-area
 
-priority: low
 
-*   N/A
+
+
 
 grid-template-areas
 
-priority: low
 
-*   N/A
+
+
 
 justify-items
 
-priority: low
 
-*   N/A
+
+
 
 justify-content
 
-priority: low
 
-*   N/A
+
+
 
 justify-self
 
-priority: low
 
-*   N/A
+
+
 
 align-items
 
-priority: low
 
-*   N/A
+
+
 
 align-content
 
-priority: low
 
-*   N/A
+
+
 
 align-self
 
-priority: low
 
-*   N/A
+
+
 
 grid-auto-rows
 
-priority: low
+
 
 *   The default size for rows in a grid.
 
